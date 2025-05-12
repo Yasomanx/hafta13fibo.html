@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+  function fibo(n){
+    if (n<=1){
+        return 1;
+    }
+    else{
+        console.log(n);
+        return fibo(n-5);
+    }
+}
+    fibo(100);
+  
+  function topla(n){
+    if(n<=10){
+        return 0;
+    }
+    else{
+        return n + topla (n-5);
+    }
+
+  }
+  topla(100);
+ console.log(topla(100)+15);
+
+   
+
+  
+
+
+    </script>
+</body>
+</html>
